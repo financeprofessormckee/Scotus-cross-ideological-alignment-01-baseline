@@ -1,0 +1,12 @@
+# Stata logs and output
+*.log
+*.smcl
+
+# Stata datasets (do not upload raw data)
+*.dta
+
+# Mac system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
