@@ -1,7 +1,7 @@
 # SCOTUS Cross-Ideological Alignment — Part 1 (Baseline)
 Replication code for:
 
-“TBD”
+“Who Crosses Over on the Supreme Court?”
 
 This repository reproduces the baseline analysis of cross-ideological voting behavior among Supreme Court justices from the 2020 Term through the 2024 Term.
 
