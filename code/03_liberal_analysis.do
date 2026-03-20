@@ -24,15 +24,15 @@ use "data/liberal_pairs.dta", clear
 
 gen justice_sorted = .
 replace justice_sorted = 1 if justice1 == 114   // Kagan
-replace justice_sorted = 2 if justice1 == 110   // Breyer
-replace justice_sorted = 3 if justice1 == 118   // Jackson
-replace justice_sorted = 4 if justice1 == 113   // Sotomayor
+replace justice_sorted = 2 if justice1 == 118   // Jackson
+replace justice_sorted = 3 if justice1 == 113   // Sotomayor
+replace justice_sorted = 4 if justice1 == 110   // Breyer
 
 label define sortedlbl ///
     1 "Kagan" ///
-    2 "Breyer" ///
-    3 "Jackson" ///
-    4 "Sotomayor"
+    2 "Jackson" ///
+    3 "Sotomayor" ///
+    4 "Breyer"
 
 label values justice_sorted sortedlbl
 
@@ -59,9 +59,9 @@ marginsplot, ///
     recastci(rcap) ///
     plot1opts(msymbol(circle) mcolor(navy) msize(large)) ///
     ciopts(lcolor(navy) lwidth(medthin)) ///
-    xscale(range(.50 .65)) ///
+    xscale(range(.50 .72)) ///
 	yscale(reverse) ///
-    xlabel(.50(.05).65, nogrid) ///
+    xlabel(.50(.05).70, nogrid) ///
     ylabel(, angle(0) nogrid) ///
     xtitle("Probability of Voting with Conservative Justices") ///
     ytitle("") ///

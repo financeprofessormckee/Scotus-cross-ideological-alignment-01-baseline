@@ -64,9 +64,9 @@ marginsplot, ///
     recastci(rcap) ///
     plot1opts(msymbol(circle) mcolor(navy) msize(large)) ///
     ciopts(lcolor(navy) lwidth(medthin)) ///
-    xscale(range(.45 .65)) ///
+    xscale(range(.50 .72)) ///
 	yscale(reverse range(.5 6.5)) ///
-    xlabel(.45(.05).65, nogrid) ///
+    xlabel(.50(.05).70, nogrid) ///
     ylabel(, angle(0) nogrid) ///
     xtitle("Probability of Voting with Liberal Justices") ///
     ytitle("") ///

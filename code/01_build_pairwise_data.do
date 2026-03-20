@@ -33,15 +33,20 @@ keep term justice caseId vote
 rename justice justice1
 rename vote vote1
 
-* Create majority indicator
-gen maj1 = (vote1 == 1)
+* create majority and dissent variables
+drop if vote == 8 | vote == .
+gen in_majority = inlist(vote,1,3,4,5) 
+gen in_dissent = inlist(vote,2,7)
 
+rename in_majority maj1
+rename in_dissent diss1
 
 tempfile temp
 save `temp'
 
 rename justice1 justice2
 rename maj1 maj2
+rename diss1 diss2
 rename vote vote2
 
 joinby caseId using `temp'
