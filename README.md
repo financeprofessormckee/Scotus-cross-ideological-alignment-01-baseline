@@ -69,6 +69,8 @@ This will:
 # Related Projects
 This repository is part of the SCOTUS Cross-Ideological Alignment Series:
 - Part 1 — Baseline Alignment (this repo)
+- Part 2 — Majority vs. Dissent
+- Part 3 — Closely Divided Cases (forthcoming)
 
 # License
 MIT License.
