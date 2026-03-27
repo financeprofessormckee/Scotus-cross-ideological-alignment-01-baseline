@@ -68,8 +68,8 @@ This will:
   
 # Related Projects
 This repository is part of the SCOTUS Cross-Ideological Alignment Series:
-- Part 1 — Baseline Alignment (this repo)
-- Part 2 — Majority vs. Dissent
+- [Part 1 — Baseline Alignment (this repo)](https://github.com/financeprofessormckee/Scotus-cross-ideological-alignment-01-baseline)
+- [Part 2 — Majority vs. Dissent](https://github.com/financeprofessormckee/Scotus-cross-ideological-alignment-02-majoritydissent)
 - Part 3 — Closely Divided Cases (forthcoming)
 
 # License
